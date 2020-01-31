@@ -11,15 +11,9 @@ end
 end
 
 
-def take_a_number (katz_deli, name)
-  katz_deli.each do |name| 
-    if katz_deli == 0 
-     katz_deli << name
-    elsif katz_deli > 0 
-      katz_deli << name
-  end
-    puts "Welcome, #{name}. You are number #"
-  end
+def take_a_number(line, name)
+  line << name
+  puts "Welcome, #{new_person}. You are number #{line.length} in line."
 end
 
 
