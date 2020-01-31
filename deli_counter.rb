@@ -19,6 +19,9 @@ end
 
 
 def now_serving
+  if now_serving.length == 0 
+    puts "There is nobody waiting to be served!"
+  elsif now_serving.length > 1 
   
 end
   
